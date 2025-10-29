@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(travel.image.webp);
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+.navbar{
+    width: 100%;
+    height: 100px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    color: brown;
+}
+
+.manu a{
+    font-size: 25px;
+    text-decoration: none; 
+    padding: 10px 20px;
+    color: white;
+}
+
+.manu a:hover{
+    border-bottom: 4px solid green;  
+}
+
+.button a{
+    font-size: 25px;
+    text-decoration: none; 
+    padding: 10px 20px;
+    color: white;
+    background-color: #ff7200;
+    border: 2px solid black;
+    border-radius: 10px;
+    transition: 0.4s linear;
+}
+
+.button a:hover{
+    background: transparent;
+}
+
+.H-Text{
+    width: 650px;
+    position: absolute;
+    margin-top: 180px;
+    margin-left:300px;
+    text-align: center;
+    color: azure;
+}
+
+.H-Text{
+    letter-spacing: 2px;
+} 
+
+.H-Text span{
+    font-size: 25px;
+    font-weight: bold;
+    color: greenyellow;
+    
+}
+
+.H-Text h1{
+    font-size: 3.5rem;
+}
+
+.H-Text a{
+    text-decoration: none;
+    padding: 10px 20px;
+    background: #ff7200;
+    color: white;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    border: 2px solid black;
+    transition: 0.4s linear;
+}
+
+.H-Text a:hover{
+    background: transparent;
+}
+
